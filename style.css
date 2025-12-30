@@ -47,7 +47,7 @@ h2 {
 .hero {
   position: relative;
   height: 100vh;
-  /* background: url("assets/images/background.jpg") center/cover no-repeat; */
+  background: url("assets/images/photo_bersama.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
