@@ -127,6 +127,23 @@ h2 {
   height: 100%;
   object-fit: cover;
 }
+.media-container {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 16 / 9;
+  margin: 15px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  /* background: #111; /* fallback kalau image belum load */
+}
+
+.media-container video,
+.media-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 
 footer {
