@@ -48,7 +48,7 @@ h2 {
 .hero {
     position: relative;
     height: 100vh;
-    background: url("assets/images/background.jpeg") center/cover no-repeat;
+    background: url("assets/images/Background.jpeg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
