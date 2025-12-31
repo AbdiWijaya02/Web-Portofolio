@@ -7,8 +7,8 @@
 }
 
 body {
-    background: #0b1220;          /* professional navy */
-    color: #e5e7eb;               /* soft white */
+    background: #f8fafc;          /* soft white */
+    color: #1f2937;               /* charcoal text */
     line-height: 1.6;
     padding: 40px;
     max-width: 900px;
@@ -23,23 +23,24 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    color: #f1f5f9;
+    color: #111827;
 }
 
 header p {
     font-size: 1.15rem;
-    color: #94a3b8;               /* muted professional text */
+    color: #4b5563;
 }
 
 .links a {
     margin: 0 10px;
     text-decoration: none;
-    color: #3b82f6;               /* corporate blue */
+    color: #111827;
     font-weight: 500;
 }
 
 .links a:hover {
     text-decoration: underline;
+    color: #374151;
 }
 
 section {
@@ -48,15 +49,15 @@ section {
 
 h2 {
     margin-bottom: 15px;
-    border-bottom: 2px solid #3b82f6;
+    border-bottom: 2px solid #111827;
     display: inline-block;
-    color: #f8fafc;
+    color: #111827;
 }
 
 .hero {
     position: relative;
     height: 100vh;
-    background: url("assets/images/Background.jpeg") center/cover no-repeat;
+    background: url("assets/images/background.jpeg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +67,7 @@ h2 {
 .overlay {
     position: absolute;
     inset: 0;
-    background: rgba(11, 18, 32, 0.85);   /* darker & calmer */
+    background: rgba(248, 250, 252, 0.92);   /* white overlay */
 }
 
 .hero-content {
@@ -81,18 +82,18 @@ h2 {
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #3b82f6;
+    border: 3px solid #111827;
     margin-bottom: 20px;
 }
 
 .hero h1 {
     font-size: clamp(1.8rem, 5vw, 2.5rem);
-    color: #f8fafc;
+    color: #111827;
 }
 
 .hero p {
     font-size: clamp(1rem, 3vw, 1.2rem);
-    color: #cbd5f5;
+    color: #4b5563;
     margin-bottom: 15px;
 }
 
@@ -104,37 +105,39 @@ h2 {
 
 .skills li {
     list-style: none;
-    background: #111827;          /* clean dark card */
+    background: #ffffff;
     padding: 8px 14px;
     border-radius: 6px;
-    color: #e5e7eb;
+    color: #1f2937;
     font-size: 0.95rem;
+    border: 1px solid #e5e7eb;
 }
 
 .project {
-    background: #111827;
+    background: #ffffff;
     padding: 18px;
     margin-bottom: 15px;
     border-radius: 10px;
-    border: 1px solid #1f2933;    /* subtle structure */
+    border: 1px solid #e5e7eb;
 }
 
 .project h3 {
-    color: #f8fafc;
+    color: #111827;
 }
 
 .project p {
-    color: #cbd5e1;
+    color: #374151;
 }
 
 .project a {
-    color: #3b82f6;
+    color: #111827;
     text-decoration: none;
     font-weight: 500;
 }
 
 .project a:hover {
     text-decoration: underline;
+    color: #374151;
 }
 
 .video-container,
@@ -145,7 +148,8 @@ h2 {
     margin: 15px auto;
     border-radius: 12px;
     overflow: hidden;
-    background: #020617;
+    background: #f1f5f9;
+    border: 1px solid #e5e7eb;
 }
 
 .media-container video,
@@ -159,7 +163,7 @@ h2 {
 
 footer {
     text-align: center;
-    color: #94a3b8;
+    color: #6b7280;
     font-size: 0.9rem;
     margin-top: 60px;
 }
